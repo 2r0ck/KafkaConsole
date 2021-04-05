@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaConsole", "KafkaConsole\KafkaConsole.csproj", "{F7EB2F07-C138-43F7-AB37-DFFF4A251414}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBroker.Kafka.Lib", "MessageBroker.Kafka.Lib\MessageBroker.Kafka.Lib.csproj", "{13137618-FB66-46F7-9B05-806F542695FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameService", "NameService\NameService.csproj", "{28C19ABE-B787-4E5D-B40A-5B2DB7EDF37C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3D85FBC7-981B-4037-A0B7-00BEE75B253B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7EB2F07-C138-43F7-AB37-DFFF4A251414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7EB2F07-C138-43F7-AB37-DFFF4A251414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7EB2F07-C138-43F7-AB37-DFFF4A251414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7EB2F07-C138-43F7-AB37-DFFF4A251414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13137618-FB66-46F7-9B05-806F542695FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13137618-FB66-46F7-9B05-806F542695FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13137618-FB66-46F7-9B05-806F542695FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13137618-FB66-46F7-9B05-806F542695FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C19ABE-B787-4E5D-B40A-5B2DB7EDF37C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C19ABE-B787-4E5D-B40A-5B2DB7EDF37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C19ABE-B787-4E5D-B40A-5B2DB7EDF37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C19ABE-B787-4E5D-B40A-5B2DB7EDF37C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4699CE96-C07B-4952-A918-8C62F4AB5C54}
+	EndGlobalSection
+EndGlobal
